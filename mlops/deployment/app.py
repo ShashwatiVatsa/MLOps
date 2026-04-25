@@ -10,7 +10,7 @@ model_path = hf_hub_download(repo_id="shashwativatsa/prediction-model", filename
 model = joblib.load(model_path)
 
 # Streamlit UI to Forecast Sales Revenue
-st.title("Forecast Sales Revenue App")
+st.title("Forecast Sales Revenue Application")
 st.write("The Forecast Sales Revenue App is an internal tool for company staff that predicts future sales revenue based on historical data, industry trends, and the status of the current sales pipeline, to estimate weekly, monthly, quarterly, and annual sales totals.")
 st.write("Kindly enter the product and store details to forecast the sales revenue.")
 
